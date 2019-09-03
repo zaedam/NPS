@@ -1,0 +1,131 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.PgOne {
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 80vh; width: 100%;
+  min-height: 550px;
+}
+
+/*****************************************/
+
+/* Navigation Bar */
+
+.navbar div {
+    font-size: 20px;
+    display: inline-block;
+    padding: 17px 0;
+}
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  background-color: rgb(0,0,0,.8);
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 60px;
+}
+.Logo {
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.NPS {
+  position: absolute;
+  margin-left: 20px;
+  color: white;
+}
+.Menu {
+	float: right;
+	margin-right: 25px;
+	font-weight: 400;
+}
+/*****************************************/
+
+/* Sidebar Menu */
+
+.list {
+	margin-left: 35px;
+}
+.closebtn {
+	float: left;
+}
+.sidenav {
+  font-weight: 400;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  background-color: rgb(0,0,0,.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav div {
+  display: block;
+}
+.sidenav a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.sidenav a:link {
+  color: white;
+}
+.sidenav a:visited {
+  color: white;
+}
+.sidenav a:active {
+  color: white;
+}
+.sidenav .closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  margin-left: 50px;
+}
+
+/*****************************************/
+
+/* Main Page */
+
+.main {
+  display: flex; 
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85%;
+}
+#name {
+  font-size: 50px;
+  padding-bottom: 25px;
+  width: 50%;
+}
+#state {
+	font-size: 25px;
+}
+
+/*****************************************/
+
+.PgTwo {
+	height: 100%;
+}
+#desc {
+	font-style: italic;
+  font-size: 23px;
+  color: black;
+  margin: 100px auto;
+  width: 60%;
+}

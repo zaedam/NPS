@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel='stylesheet' href='Events.css' type='text/css' />
+	<style> 
+		@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<!-- connects JQuery to html -->	
+	<script src="Events.js"></script>
+</head>
+<body>
+
+<div class=PgOne style="background-image: url('VVZ.jpg');">
+	
+	<div class="navbar">
+		<img class=Logo height=50px src="NPSLogo.png">
+		<div class=NPS>National Park Service</div>
+		<div class=Menu style="cursor:pointer" onclick="openNav()">menu</div>
+		<div class="sidenav" id="mySidenav" style="width:0">
+			<a href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</a> <!-- Close Button -->
+			<div class=list>
+				<a href="Events.html"   class=nav target="_blank">Events</a><br><br>
+				<a href="Articles.html"   class=nav target="_blank">Articles</a><br><br>
+				<a href="News.html"   class=nav target="_blank">News Releases</a><br><br>
+				<a href="Campgrounds.html"   class=nav target="_blank">Campgrounds</a><br><br>
+				<a href="Visitors.html"   class=nav target="_blank">Visitors Centers</a><br><br>
+				<a href="LessonPlans.html"   class=nav target="_blank">Lesson Plans</a><br><br>
+				<a href="People.html"   class=nav target="_blank">People</a><br><br>
+				<a href="Places.html"   class=nav target="_blank">Places</a><br><br>
+			</div>
+		</div>
+	</div>
+
+	<div class=main>
+		<div id=name>Name</div>
+		<div id=state>State</div>
+	</div>
+</div>
+
+<div class=PgTwo>
+	<div class=Events>Events</div>
+	<div class=box></div>
+</div>
+
+</body>
+</html>

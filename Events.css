@@ -1,0 +1,296 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.PgOne {
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 70vh; width: 100%;
+  min-height: 430px;
+}
+
+/*****************************************/
+
+/* Navigation Bar */
+
+.navbar div {
+  font-size: 20px;
+  display: inline-block;
+  padding: 17px 0;
+}
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  background-color: rgb(0,0,0,.8);
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 60px;
+}
+.Logo {
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.NPS {
+  position: absolute;
+  margin-left: 20px;
+  color: white;
+}
+.Menu {
+  float: right;
+  margin-right: 25px;
+  font-weight: 400;
+}
+/*****************************************/
+
+/* Sidebar Menu */
+
+.list {
+  margin-left: 35px;
+}
+.closebtn {
+  float: left;
+}
+.sidenav {
+  font-weight: 400;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  background-color: rgb(0,0,0,.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav div {
+  display: block;
+}
+.sidenav a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.sidenav a:link {
+  color: white;
+}
+.sidenav a:visited {
+  color: white;
+}
+.sidenav a:active {
+  color: white;
+}
+.sidenav .closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  margin-left: 50px;
+}
+
+
+/*****************************************/
+
+/* Main Page */
+
+.main {
+  display: flex; 
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85%;
+}
+#name {
+  font-size: 50px;
+  padding-bottom: 25px;
+  width: 50%;
+}
+#state {
+  font-size: 25px;
+}
+
+/*****************************************/
+
+.PgTwo {
+	height: 100%;
+  color: black;
+  padding-top: 75px;
+  background-color: rgb(250,250,250);
+}/*
+.box {
+  background-color: rgb(240,240,240);
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+  }*/
+  #container div {
+    display: inline-grid;
+  }
+  #container {
+    /*border-bottom: 1px solid black;*/
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 3% 4%;
+    background-color: rgb(230,230,230);
+  }
+  #container:after {
+    content: "";
+    display: block;
+  }
+  #container:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+  }
+  #L {
+    width: 30%;
+    margin: 0;
+  }
+  #R {
+    width: 65%;
+    margin: 0;
+    padding-left: 4.25%;
+    border-left: 1px solid black;
+  }
+  #title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+  #desc {
+    padding-bottom: 20px;
+    font-size: large;
+  }
+  #details {
+    line-height: 1.15em;
+    padding-top: 10px;
+  }
+  button {
+    font-family: 'Raleway', sans-serif;
+    padding: 11px;
+    padding-bottom: 10px;
+    background: #ce6b00;
+    color: white;
+    border: 1px solid #ce6b00;
+    cursor: pointer;
+    width: 85px;
+    font-size: small;
+    margin-top: 25px;
+  }
+  button:hover {
+    background: #b45e00;
+    border: 1px solid #b45e00;
+  }
+  .Events {
+    font-size: 40px;
+    margin: 100px 0;
+  }
+
+
+  /* Images */
+
+/*.imageBlocks {
+  height: 100%;
+  color: black;
+  margin-top: 25px;
+}
+.imageBlocks div {
+  display: inline-block;
+  }*/
+/*#imgDiv {
+  position: relative;
+  text-align: center;
+  min-width: 200px;
+  min-height: 200px;
+  width: 25%;
+  margin: 50px 50px;
+  float: left;
+}
+#imgDiv:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+#images {
+  height: 100%; 
+}
+#images img {
+  width: 100%;
+  }*/
+/*#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 2.5vw;
+  }*/
+  #containerH {
+    height: 100%; 
+    width: 70%;
+    text-align: left;
+    margin: auto; 
+  }
+  #containerH div {
+    width: 100%;
+  }
+  #title2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  #date2 {
+    font-size: 15px;
+  }
+  #desc2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 4px dotted #ce6b00;
+  }
+  #titleDiv2 a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  #titleDiv2 a:hover {
+    color: #d27919;
+  }
+
+  #container1 {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+
+
+
+
+
+  #wholeWrapper div {
+    display: inline-block;
+  }
+  #imgDiv {
+    min-width: 100px;
+    min-height: 100px;
+  }

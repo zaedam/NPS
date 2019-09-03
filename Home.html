@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel='stylesheet' href='Home.css' type='text/css' />
+  <style> 
+    @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+  </style>
+  <!-- microscope img -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- connects JQuery to html -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="Home.js"></script>
+</head>
+<body>
+
+  <div class=Events>Recent Events</div>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <!-- <img src="NG.jpg" style="width:100%"> -->
+    </div>
+
+    <div class="mySlides fade">
+      <!-- <img src="MA.jpg" style="width:100%"> -->
+    </div>
+
+    <div class="mySlides fade">
+      <!-- <img src="VVZ.jpg" style="width:100%"> -->
+    </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div id=dotsDiv style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+</body>
+</html>

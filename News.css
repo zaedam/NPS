@@ -1,0 +1,216 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.PgOne {
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 70vh; width: 100%;
+  min-height: 430px;
+}
+
+/*****************************************/
+
+/* Navigation Bar */
+
+.navbar div {
+  font-size: 20px;
+  display: inline-block;
+  padding: 17px 0;
+}
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  background-color: rgb(0,0,0,.8);
+  text-align: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 60px;
+}
+.Logo {
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.NPS {
+  position: absolute;
+  margin-left: 20px;
+  color: white;
+}
+.Menu {
+  float: right;
+  margin-right: 25px;
+  font-weight: 400;
+}
+/*****************************************/
+
+/* Sidebar Menu */
+
+.list {
+  margin-left: 35px;
+}
+.closebtn {
+  float: left;
+}
+.sidenav {
+  font-weight: 400;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  background-color: rgb(0,0,0,.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav div {
+  display: block;
+}
+.sidenav a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.sidenav a:link {
+  color: white;
+}
+.sidenav a:visited {
+  color: white;
+}
+.sidenav a:active {
+  color: white;
+}
+.sidenav .closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  margin-left: 50px;
+}
+
+
+/*****************************************/
+
+/* Main Page */
+
+.main {
+  display: flex; 
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85%;
+}
+#name {
+  font-size: 50px;
+  padding-bottom: 25px;
+  width: 50%;
+}
+#state {
+  font-size: 25px;
+}
+
+/*****************************************/
+
+/*.PgTwo1 {
+  background: repeating-linear-gradient( 45deg, white, white 10px, black 10px, black 11px );
+  height: 100%;
+  padding-top: 25px;
+}*/
+.PgTwo {
+	height: 100%;
+  color: black;
+  padding: 15px;
+  background-color: rgb(250,250,250);
+
+}
+.News {
+  font-size: 40px;
+  margin: 70px 0;
+}
+
+/* News Blocks */
+#container div {
+  display: inline-block;
+}
+#container {
+  width: 70%;
+    margin: auto;
+    padding: 40px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  background-color: rgb(230,230,230);
+    cursor: pointer;
+}
+#container:after {
+  content: "";
+  display: block;
+}
+#container:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+#imgDiv {
+ min-width: 200px;
+    min-height: 200px;
+    width: 35%;
+    margin-right: 5%;
+    filter: saturate(125%) brightness(105%) contrast(110%);
+}
+#textContainer {
+      height: 100%;
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+#textContainer div {
+  width: 100%;
+}
+#textContainer2 {
+    height: 100%;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
+#textContainer2 div {
+  width: 100%;
+}
+#title {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+#titleDiv a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#titleDiv a:hover {
+  color: #d27919;
+}
+#date {
+  font-size: 14px;
+}
+#desc {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+/*#container1 {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
